@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="width = device-width, initial-scale = 1" name="viewport">
+    <link href="css/ui.css" rel="stylesheet">
+    <link href=
+    "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600'
+    rel='stylesheet' type='text/css'>
+    <title></title>
+</head>
+<body>
+    <div id="uiContainer">
+        <div id="sidebar">
+            <img src="images/sig.fw.png">
+            <h3 id="name">D'Newb Gallery</h3><i class="fa fa-cog" id=
+            "settingsToggle"></i>
+        </div>
+        <div id="content">
+            <div id="slideshow">
+                <div id="slideshowOverlay"></div>
+                <div id="slideshowContainerImages"></div>
+            </div>
+            <div id="imagesContainer"></div>
+        </div>
+    </div>
+    <div id="copyrightMessage">
+        Designed & Developed By DNewb &copy; 2016
+    </div>
+    <div id="settingsContainer">
+        <div id="settings">
+            <h3>Number Of Images</h3><input id="imgNumber" type="text">
+            <h3>Select Thumbnail Size</h3><select id="thumbnailSize">
+                <option value="2">
+                    Large
+                </option>
+                <option value="4">
+                    Medium
+                </option>
+                <option value="6">
+                    Small
+                </option>
+            </select>
+            <div id="reload">
+                Apply <i class="fa fa-refresh"></i>
+            </div>
+        </div>
+    </div>
+    <script src="js/ui.js">
+    </script>
+</body>
+</html>
